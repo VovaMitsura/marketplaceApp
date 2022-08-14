@@ -3,9 +3,9 @@ package user;
 /*Class User contains information about user id, firstName, lastName and amountOfMoney*/
 public class User {
 
-    private int id;
-    private String firstName;
-    private String lastName;
+    private final int id;
+    private final String firstName;
+    private final String lastName;
     private double amountOfMoney;
 
 

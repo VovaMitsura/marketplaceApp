@@ -7,7 +7,7 @@ import java.util.List;
  return product by given id */
 public class Products {
 
-    private List<Product> products = new ArrayList<>();
+    private final List<Product> products = new ArrayList<>();
 
     public List<Product> getProductsList() {
         return products;

@@ -7,7 +7,7 @@ import java.util.List;
  return user by given id*/
 public class Users {
 
-    private List<User> users = new ArrayList<>();
+    private final List<User> users = new ArrayList<>();
 
 
     public List<User> getUsersList() {
